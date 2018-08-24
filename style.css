@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(22, 128, 155);
+    background-image: url("writing.jpg");
+    background-repeat: no-repeat +1000;
+    margin: 0%;
+}
+
+.header {
+    background-color: gray;
+    width: auto;
+    height: 50px;
+    padding-top: 30px;
+    border-bottom: 2px solid blue;
+}
+
+#branding {
+    text-align: center;
+    font-style: italic;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+li {
+    text-decoration: none;
+    text-decoration-color: beige;
+    list-style-type: none;
+    float: right;
+    padding: 0px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+li:hover {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#showcase {
+    background-color: rgb(89, 156, 156);
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    min-height: 100px;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+#footer {
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+}
