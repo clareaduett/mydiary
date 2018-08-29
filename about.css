@@ -1,0 +1,64 @@
+
+
+
+body {
+    background-color: rgb(22, 128, 155);
+    height:auto;
+    width:auto;
+}
+
+.header {
+    background-color: rgb(116, 109, 109);
+    width: auto;
+    height: 55px;
+    padding-top: 30px;
+    border-bottom: 2px solid blue;
+}
+
+#branding {
+    float: left;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 100%;
+    
+}
+
+.nav:li {
+    text-decoration: none;
+    text-decoration-color: beige;
+    list-style-type: none;
+    padding: 0px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+#mydiary li{list-style-type: none;
+    font-size: 30px;
+}
+
+#view li{float:right;
+list-style-type: none;
+font-size: 25px;
+margin-right: 50px;
+}
+
+#view li:hover {
+    background-color: brown;
+}
+.section{background-color: aliceblue;
+    padding: 100px
+}
+#list{
+    list-style-type: disc;
+    font-size: auto;
+}
+
+
+#footer {
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+    height: 150px;
+    width: auto;
+    padding: 50px;
+    
+}
