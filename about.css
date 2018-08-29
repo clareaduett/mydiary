@@ -1,7 +1,10 @@
+
+
+
 body {
     background-color: rgb(22, 128, 155);
-    width:auto;
     height:auto;
+    width:auto;
 }
 
 .header {
@@ -16,55 +19,46 @@ body {
     float: left;
     font-style: italic;
     font-size: 20px;
+    margin-bottom: 100%;
     
 }
 
-li {
+.nav:li {
     text-decoration: none;
     text-decoration-color: beige;
     list-style-type: none;
-    float: right;
     padding: 0px;
     margin-right: 50px;
     font-size: 25px;
 }
+#mydiary li{list-style-type: none;
+    font-size: 30px;
+}
 
-li:hover {
+#view li{float:right;
+list-style-type: none;
+font-size: 25px;
+margin-right: 50px;
+}
+
+#view li:hover {
     background-color: brown;
 }
-
-h1 {
-    text-align: center;
+.section{background-color: aliceblue;
+    padding: 100px
+}
+#list{
+    list-style-type: disc;
+    font-size: auto;
 }
 
-h2 {
-    text-align: center;
-}
-
-form {
-    text-align: center;
-    
-}
-#showcase {
-    background-color: rgb(89, 156, 156);
-    font-size: 20px;
-    text-align: center;
-    padding: 3px;
-    width:auto;
-    margin-top: 8px;
-    font-style: italic;
-}
-#button{margin-left: auto;
-    margin-right: auto;
-    box-align: center;
-
-}
 
 #footer {
     background-color: gray;
     text-align: center;
     font-style: italic;
-    height: 150px; 
-    width:auto; 
+    height: 150px;
+    width: auto;
     padding: 50px;
+    
 }

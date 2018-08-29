@@ -12,34 +12,36 @@
 </head>
 
 <body>
-    <img src="person writing.jpeg" alt="person writing" width="auto" height="auto">
+   
 
     <div class="header">
         <nav>
-            <ul>
-                <li><a href="signup.html">Story|</a></li>
+            <ul> 
+                <li><a href="#"><span style="font-style: italic;text-decoration:none;text-align: left;">MyDiary</span></a></li>
+                <li><a href="stories.html">Story|</a></li>
                 <li><a href="about.html">About|</a></li>
                 <li><a href="#">Home|</a></li>
                 <li><a href="sign-in.html" style="color:red">Create account</a> </li>
             </ul>
         </nav>
 
-        <div id="branding">
-            <h1>MyDiary</h1>
-        </div>
 
     </div>
     </header>
 
     <div class="container">
         <h1>Welcome to MyDiary your preferred online journal.</h1>
-        <form action="/signup.html" style="color:blue">
+        <form action="/signup.html" style="color:rgb(245, 245, 250)">
 
-            <label>User Name</label><input type="text" name="username" placeholder="user name" /><br><br>
-            <label>Email</label> <input type="text" name="email" placeholder="email address" /><br><br>
-            <label>Password</label><input type="text" name="pwd" placeholder="password" /><br><br>
-            <input type="submit" value="Log-in" name="Log-in" />
-            <input type="submit" value="Log-out" name="Log-out" />
+            
+            <label>Email</label> <input type="text" name="email" placeholder="email address" required autofocus/><br><br>
+            <label>Password</label><input type="password" name="psw" placeholder="password" required /><br><br>
+         <div button>
+            <button class="button 1"><a href="about.html">Log-in</a></button>
+            <button class="button 1"><a href="getstarted.html">Log-out</a></button>
+            <a href="forgotpassword.html">Forgot password?</a>
+            <p
+        </div>
         </form>
         <form action="">
             <input type="checkbox" name="subcribe" value="subscribe">Subscribe for notifications.

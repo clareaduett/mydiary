@@ -11,56 +11,32 @@ body {
     border-bottom: 2px solid blue;
 }
 
-#branding {
+li{
     float: left;
     font-style: italic;
-    font-size: 40px;
-    
-}
-
-li {
-    text-decoration: none;
-    text-decoration-color: beige;
+    font-size: 30px;
     list-style-type: none;
-    float: right;
-    padding: 0px;
-    margin-right: 50px;
-    font-size: 25px;
-}
-
-li:hover {
-    background-color: brown;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    font-size: 50px;
-}
-
-form {
-    text-align: center;
+    text-decoration: none;
     
 }
+
 #showcase {
     background-color: rgb(89, 156, 156);
     font-size: 20px;
     text-align: center;
-    padding: 3px;
+    padding: 20px;
     min-height: 100px;
-    margin-top: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
     font-style: italic;
 }
-
 
 #footer {
     background-color: gray;
     text-align: center;
     font-style: italic;
-    height: 150px;
-    width: 100%;
-    padding-top: 50px;
+    height: 150px; 
+    width:100%;
+    position:fixed;
+    bottom:0;
 }
